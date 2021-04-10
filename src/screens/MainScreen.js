@@ -25,6 +25,7 @@ const MainScreen = ({ navigation }) => {
     const [isRefreshing, setIsRefreshing] = useState(false)
     const [isLoading, setIsLoading] = useState(false)
     const dispatch = useDispatch()
+    
     // let monday
     // let tuesday
     // let wednesday
