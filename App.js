@@ -13,6 +13,7 @@ const rootReducer = combineReducers({
   meals: mealReducer,
   tips: tipsReducer
 })
+//test
 
 const store = createStore(rootReducer)
 
